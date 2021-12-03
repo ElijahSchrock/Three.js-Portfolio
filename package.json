@@ -6,8 +6,7 @@
     "npm": "8.1.0"
   },
   "scripts": {
-    "start": "node main.js",
-    "postinstall": "webpack --env.production --config ./config/webpack.js --progress"
+    "start": "node main.js"
   },
   "devDependencies": {
     "vite": "^2.6.4"
