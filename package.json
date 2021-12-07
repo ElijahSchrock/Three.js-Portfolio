@@ -6,7 +6,8 @@
     "npm": "8.1.0"
   },
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "postinstall": "vite build"
   },
   "devDependencies": {
     "vite": "^2.6.4"
