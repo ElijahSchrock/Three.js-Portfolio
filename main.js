@@ -1,6 +1,7 @@
 
 import { gsap } from 'gsap';
 import * as THREE from 'three';
+import { Scene } from 'three';
 // import lilGuiUmd from 'lil-gui';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
@@ -204,3 +205,37 @@ addEventListener('mousemove', (event) => {
   mouse.x = (event.clientX / window.innerWidth) * 2 - 1 
   mouse.y = -(event.clientY / window.innerHeight) * 2 + 1 //set event to - because y is flipped compared to x
 })
+
+// const scene2 = new THREE.Scene();
+
+// const geometry = new THREE.TorusGeometry(.7, .2, 16, 100);
+
+// const material = new THREE.MeshBasicMaterial();
+// material.color = new THREE.Color(0xff00000);
+
+// const sphere = new THREE.Mesh(geometry,material);
+// scene2.add(sphere);
+
+// const camera2 = new THREE.PerspectiveCamera(75, innerWidth/ innerHeight, 0.1, 1000); 
+// camera.position.z = 5
+// scene2.add( camera2 );
+
+// // Renderer
+// const renderer2 = new THREE.WebGLRenderer();
+// renderer2.setSize(window.innerWidth, window.innerHeight);
+// renderer2.setPixelRatio(window.devicePixelRatio);
+// document.body.appendChild(renderer2.domElement);
+// renderer2.render(scene2, camera2)
+
+// const light2 = new THREE.DirectionalLight(0xffffff, 1);
+// light2.position.set(0, 1, 1);
+// scene2.add(light2);
+
+// const backLight2 = new THREE.DirectionalLight(0xffffff, 1);
+// backLight2.position.set(0, 0, -1);
+// scene2.add(backLight2);
+
+// function animate2 () {
+//   requestAnimationFrame(animate2)
+//   renderer2.render(scene2, camera2)
+// }
